@@ -1,0 +1,7 @@
+// .devcontainer/devcontainer.json
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // 基础镜像
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}         // 安装 Python
+  }
+}
